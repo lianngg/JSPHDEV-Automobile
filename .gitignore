@@ -14,8 +14,10 @@ gen/
 # Eclipse project files
 .classpath
 .project
+.settings
 */.classpath
 */.project
+*/.settings
 
 # OS generated files
 */.DS_Store
