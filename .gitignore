@@ -1,4 +1,5 @@
 *.class
+*/*.class
 
 # Package Files #
 *.jar
@@ -8,10 +9,13 @@
 # generated files
 bin/  
 gen/
+*/bin/
 
 # Eclipse project files
 .classpath
 .project
+*/.classpath
+*/.project
 
 # OS generated files
 */.DS_Store
