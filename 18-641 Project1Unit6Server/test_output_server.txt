@@ -1,0 +1,43 @@
+Executing: CREATE TABLE IF NOT EXISTS Automobiles( A_Id int NOT NULL AUTO_INCREMENT, Model varchar(50) NOT NULL, Make varchar(50) NOT NULL, Baseprice int NOT NULL, PRIMARY KEY (A_Id) );
+Executing: CREATE TABLE IF NOT EXISTS OptionSets( S_Id int NOT NULL AUTO_INCREMENT, SetsName varchar(50) NOT NULL, Auto_Id int, PRIMARY KEY(S_Id), FOREIGN KEY(Auto_Id) REFERENCES Automobiles(A_Id) ON DELETE CASCADE ON UPDATE CASCADE );
+Executing: CREATE TABLE IF NOT EXISTS AutoOptions ( O_Id int NOT NULL AUTO_INCREMENT, OptionName varchar(50) NOT NULL, OptionValue int NOT NULL, Set_Id int NOT NULL, PRIMARY KEY(O_Id), FOREIGN KEY(Set_Id) REFERENCES OptionSets(S_Id) ON DELETE CASCADE ON UPDATE CASCADE );
+Executing: INSERT INTO Automobiles(Model, Make, Baseprice) VALUES('Focus Wagon ZTW', 'Ford', 18445.0);
+Executing: INSERT INTO Automobiles(Model, Make, Baseprice) VALUES('Model S', 'Tesla', 70117.0);
+[Driver] Printing Focus Wagon ZTW
+Automobile = Ford Focus Wagon ZTW
+baseprice = $18445.0
+opset =	Color [Fort Knox Gold Clearcoat Metallic: $0.0, Liquid Grey Clearcoat Metallic: $0.0, Infra-Red Clearcoat: $0.0, Grabber Green Clearcoat Metallic: $0.0, Sangria Red Clearcoat Metallic: $0.0, French Blue Clearcoat Metallic: $0.0, Twilight Blue Clearcoat Metallic: $0.0, CD Silver Clearcoat Metallic: $0.0, Pitch Black Clearcoat: $0.0, Cloud 9 White Clearcoat: $0.0]
+	Transmission [automatic: $0.0, manual: $-815.0]
+	Brakes [Standard: $0.0, ABS: $400.0, ABS with Advance Trac: $1625.0]
+	Side Impact Air Bags [present: $350.0, not present: $0.0]
+	Power Moonroof [present: $595.0, not present: $0.0]
+Current Total Price = $18445.0
+
+[Driver] Printing Model S
+Automobile = Tesla Model S
+baseprice = $70117.0
+opset =	Color [Black: $0.0, White: $0.0, Blue Metallic: $750.0, Brown Metallic: $750.0, Green Metallic: $750.0, Grey Metallic: $750.0, Silver Metallic: $750.0, Pearl White Multi-Coat: $1500.0, Red Multi-Coat: $1500.0]
+	Electrical [Battery Charger: $2700.0, Supercharger Hardware: $2000.0]
+	Entertainment and Instrumentation [present: $2500.0, not present: $0.0]
+	Parking Sensors [present: $500.0, not present: $0.0]
+Current Total Price = $70117.0
+
+[Driver] Updating Model S
+Executing: DELETE from Automobiles WHERE A_Id = 2;
+Executing: INSERT INTO Automobiles(Model, Make, Baseprice) VALUES('Model S', 'Tesla', 70117.0);
+Executing: DELETE from Automobiles WHERE A_Id = 3;
+Executing: INSERT INTO Automobiles(Model, Make, Baseprice) VALUES('Model S', 'Tesla', 70117.0);
+
+[Driver] Printing Model S
+Automobile = Tesla Model S
+baseprice = $70117.0
+opset =	Color [Black: $0.0, White: $0.0, Blue: $750.0, Brown Metallic: $750.0, Green Metallic: $750.0, Grey Metallic: $750.0, Silver Metallic: $750.0, Pearl White Multi-Coat: $1500.0, Red Multi-Coat: $1500.0]
+	Electrical [Battery Charger: $2700.0, Supercharger Hardware: $2000.0]
+	Entertainment and Instrumentation [present: $2500.0, not present: $0.0]
+	Parking Sensors [present: $4000.0, not present: $0.0]
+Current Total Price = $70117.0
+
+[Driver] Deleting Focus Wagon ZTW
+Executing: DELETE from Automobiles WHERE A_Id = 1;
+[Driver] Printing Focus Wagon ZTW
+Focus Wagon ZTW not found in the database.

@@ -1,0 +1,37 @@
+Please input command: send, list, config, quit
+send
+File name: properties1.txt
+Server: Automobile created successfully.
+Please input command: send, list, config, quit
+send
+File name: properties2.txt
+Server: Automobile created successfully.
+Please input command: send, list, config, quit
+list
+Focus Wagon ZTW
+Model S
+Please input command: send, list, config, quit
+config
+Model name: 
+Model S
+Color [Black: $0.0, White: $0.0]
+Select one option: Black
+Electrical [Battery Charger: $2700.0, Supercharger Hardware: $2000.0]
+Select one option: Battery Charger
+Entertainment and Instrumentation [present: $2500.0, not present: $0.0]
+Select one option: present
+Side Impact Air Bags [present: $350.0, not present: $0.0]
+Select one option: present
+Power Parking Sensors [present: $500.0, not present: $0.0]
+Select one option: present
+Automobile = Tesla Model S
+baseprice = $70117.0
+opset =	Color [Black: $0.0, White: $0.0]
+	Electrical [Battery Charger: $2700.0, Supercharger Hardware: $2000.0]
+	Entertainment and Instrumentation [present: $2500.0, not present: $0.0]
+	Side Impact Air Bags [present: $350.0, not present: $0.0]
+	Power Parking Sensors [present: $500.0, not present: $0.0]
+Current Total Price = $76167.0
+Please input command: send, list, config, quit
+quit
+Bye!

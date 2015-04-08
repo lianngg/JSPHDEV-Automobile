@@ -1,0 +1,8 @@
+Start server.
+Receive Automobile Focus Wagon ZTW
+Receive Automobile Model S
+Return list of Automobiles:
+Focus Wagon ZTW
+Model S
+Return Automobile Model S
+Quit

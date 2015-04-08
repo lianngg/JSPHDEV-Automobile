@@ -1,0 +1,23 @@
+Start server.
+Accept a client.
+Receive Automobile Focus Wagon ZTW
+Return list of Automobiles:
+Focus Wagon ZTW
+Return list of Automobiles:
+Focus Wagon ZTW
+Receive Automobile Model S
+Return list of Automobiles:
+Focus Wagon ZTW
+Model S
+Accept a client.
+Return list of Automobiles:
+Focus Wagon ZTW
+Model S
+Accept a client.
+Return list of Automobiles:
+Focus Wagon ZTW
+Model S
+Accept a client.
+Return Automobile Model S
+Accept a client.
+Return Automobile Model S

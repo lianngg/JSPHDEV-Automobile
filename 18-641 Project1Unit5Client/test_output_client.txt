@@ -1,0 +1,19 @@
+Please input command: send, list, config, quit
+send
+File name: 1.properties
+Server: Automobile created successfully.
+Please input command: send, list, config, quit
+send
+File name: 2.properties
+Server: Automobile created successfully.
+Please input command: send, list, config, quit
+list
+Focus Wagon ZTW
+Model S
+Please input command: send, list, config, quit
+
+
+==============================================
+
+To see the result of the web UI, it can be accessed by http://localhost:8080/ after launching Tomcat
+

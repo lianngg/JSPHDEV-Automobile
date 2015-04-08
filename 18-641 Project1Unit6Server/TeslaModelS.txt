@@ -1,0 +1,7 @@
+Make=Tesla
+Model=Model S
+Base Price=70117
+Color=Black:0,White:0,Blue Metallic:750,Brown Metallic:750,Green Metallic:750,Grey Metallic:750,Silver Metallic:750,Pearl White Multi-Coat:1500,Red Multi-Coat:1500
+Electrical=Battery Charger:2700,Supercharger Hardware:2000
+Entertainment and Instrumentation=present:2500,not present:0
+Parking Sensors=present:500,not present:0

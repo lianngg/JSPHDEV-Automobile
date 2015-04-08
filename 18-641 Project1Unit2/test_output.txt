@@ -1,0 +1,39 @@
+[test] Build automobile with the BuildAuto API.
+[test] Building Focus Wagon ZTW...
+[test] Building Model S...
+[test] Print Focus Wagon ZTW
+Automobile = Ford Focus Wagon ZTW
+baseprice = $18445.0
+opset =	Color [Fort Knox Gold Clearcoat Metallic: $0.0, Liquid Grey Clearcoat Metallic: $0.0, Infra-Red Clearcoat: $0.0, Grabber Green Clearcoat Metallic: $0.0, Sangria Red Clearcoat Metallic: $0.0, French Blue Clearcoat Metallic: $0.0, Twilight Blue Clearcoat Metallic: $0.0, CD Silver Clearcoat Metallic: $0.0, Pitch Black Clearcoat: $0.0, Cloud 9 White Clearcoat: $0.0]
+	Transmission [automatic: $0.0, manual: $-815.0]
+	Brakes [Standard: $0.0, ABS: $400.0, ABS with Advance Trac: $1625.0]
+	Side Impact Air Bags [present: $350.0, not present: $0.0]
+	Power Moonroof [present: $595.0, not present: $0.0]
+Current Total Price = $18445.0
+
+[test] Print Model S
+Automobile = Tesla Model S
+baseprice = $70117.0
+opset =	Color [Black: $0.0, White: $0.0, Blue Metallic: $750.0, Brown Metallic: $750.0, Green Metallic: $750.0, Grey Metallic: $750.0, Silver Metallic: $750.0, Pearl White Multi-Coat: $1500.0, Red Multi-Coat: $1500.0]
+	Electrical [Battery Charger: $2700.0, Supercharger Hardware: $2000.0]
+	Entertainment and Instrumentation [present: $2500.0, not present: $0.0]
+	Parking Sensors [present: $500.0, not present: $0.0]
+Current Total Price = $70117.0
+
+[test] Test filename error using FocusWagonZTW.txt.txt
+errno=3, errorMsg: "File name is missing or wrong"
+Fix filename: FocusWagonZTW.txt
+
+[test] Test filename error using FocusWagonZTW
+errno=3, errorMsg: "File name is missing or wrong"
+Fix filename: FocusWagonZTW.txt
+
+[test] Select options: Power Moonroof present, Transmission manual.
+Automobile = Ford Focus Wagon ZTW
+baseprice = $18445.0
+opset =	Color [Fort Knox Gold Clearcoat Metallic: $0.0, Liquid Grey Clearcoat Metallic: $0.0, Infra-Red Clearcoat: $0.0, Grabber Green Clearcoat Metallic: $0.0, Sangria Red Clearcoat Metallic: $0.0, French Blue Clearcoat Metallic: $0.0, Twilight Blue Clearcoat Metallic: $0.0, CD Silver Clearcoat Metallic: $0.0, Pitch Black Clearcoat: $0.0, Cloud 9 White Clearcoat: $0.0]
+	Transmission [automatic: $0.0, manual: $-815.0]
+	Brakes [Standard: $0.0, ABS: $400.0, ABS with Advance Trac: $1625.0]
+	Side Impact Air Bags [present: $350.0, not present: $0.0]
+	Power Moonroof [present: $595.0, not present: $0.0]
+Current Total Price = $18225.0
